@@ -21,7 +21,7 @@ library(ggplot2)
 knitr::include_graphics("img/Speaking-the-world.jpg")
 ```
 
-_Write your comments about image 1 below_
+The bars aren't in proportion to the number of speakers of each language (e.g. spanish and enlgish bars are similar in size but english has 300 million more speakers)
 
 
 
@@ -33,7 +33,7 @@ _Write your comments about image 1 below_
 knitr::include_graphics("img/rose-pop-density-total-area-bw.jpg")
 ```
 
-_Write your comments about image 2 below_
+All in black and white, no numbers, representing two different pieces of data but its not clear what is representing what in the diagram 
 
 
 
@@ -46,6 +46,7 @@ knitr::include_graphics("img/life-expectancy-rule-of-law.png")
 
 _Write your comments about image 3 below_
 
+No title so its unclear what the graph is showing, Has no key so we don't know why the balls are different sizes and colours, axes doesn't have a scale, Graph should maybe be larger/more spread out so the data is more clear 
 
 
 
@@ -57,8 +58,7 @@ knitr::include_graphics("img/global-income-dist.PNG")
 
 _Write your comments about image 4 below_
 
-
-
+Y-axis label isn't clear, not clear how the graph is supposed to be read, X-axis scale isn't evenly spaced
 
 
 # Exercises
