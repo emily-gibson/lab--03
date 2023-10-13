@@ -71,7 +71,12 @@ staff <- read_csv("data/instructional-staff.csv")
 ## Exercise 1
 
 What is the difference between *wide format* data and *long format* data?
-wide format has
+
+
+
+Wide format is ....... 
+
+
 
 Is the format `staff` data *wide* or *long*?
 
