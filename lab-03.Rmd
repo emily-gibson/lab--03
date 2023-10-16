@@ -136,7 +136,12 @@ mutate(year = as.double(year))
 
 
 ```{r working-line-plot}
-# Write your code for Exercise 5 here
+
+ggplot(data = staff_long,
+       mapping = aes(x = year, 
+                     y = percent, 
+                     colour = faculty_type)) +
+  geom_line()
 
 
 
@@ -145,7 +150,11 @@ mutate(year = as.double(year))
 ## Exercise 6
 
 ```{r better-line-plot}
-# Write your code for Exercise 6 here
+ggplot(data = staff_long,
+       mapping = aes(x = year, 
+                     y = percent, 
+                     colour = faculty_type)) +
+  geom_line() + labs(x = "year", y = "percentage of staff", title = "Percentage of staff in each faculty type in years between 1980 and 2010")
 
 
 
